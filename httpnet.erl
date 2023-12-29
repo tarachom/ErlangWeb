@@ -1,3 +1,33 @@
+% 
+% Copyright (C) 2023 TARAKHOMYN YURIY IVANOVYCH
+% All rights reserved.
+%
+% Licensed under the Apache License, Version 2.0 (the "License");
+% you may not use this file except in compliance with the License.
+% You may obtain a copy of the License at
+%
+%     http://www.apache.org/licenses/LICENSE-2.0
+%
+% Unless required by applicable law or agreed to in writing, software
+% distributed under the License is distributed on an "AS IS" BASIS,
+% WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+% See the License for the specific language governing permissions and
+% limitations under the License.
+% 
+%
+% 
+% Автор:    Тарахомин Юрій Іванович
+% Адреса:   Україна, м. Львів
+% Сайт:     accounting.org.ua
+% 
+
+%
+% Два вебсервера для http та https
+%
+% Сервер для http виконує роль перенаправлення на https
+% Якщо відключити mod_redirect і включити mod_alias буде працювати як звичайний http сервер
+%
+
 -module(httpnet).
 -export([
     start/0, 
@@ -36,8 +66,8 @@ start() ->
 
             {socket_type,
                 {ssl, [
-                    {certfile, "./ssl/fullchain3.pem"},
-                    {keyfile, "./ssl/privkey3.pem"}
+                    {certfile, "./ssl/fullchain.pem"},
+                    {keyfile, "./ssl/privkey.pem"}
                 ]}},
 
             {server_root, "./server/"},
