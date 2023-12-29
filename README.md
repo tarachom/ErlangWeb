@@ -12,3 +12,5 @@
 Запустити вебсервер:
 
     erl -s httpnet
+
+Згенерувати SSL ключі можна за допомогою [Certbot](https://certbot.eff.org/instructions?ws=other&os=ubuntufocal)
