@@ -1,5 +1,5 @@
 # Erlang вебсервер
-<b>Вебсервер для сайту | Erlang, Linux, Windows</b><br/>
+<b>Вебсервер для сайту</b> | Erlang, Linux, Windows<br/>
 
 Встановити Erlang на Ubuntu:
 
