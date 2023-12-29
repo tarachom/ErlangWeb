@@ -34,8 +34,8 @@
     print/1
 ]).
 
--define(SERVER, "find.org.ua").
--define(BIND, "192.168.0.101").
+-define(SERVER, "mysyte.com.ua").
+-define(BIND, "192.168.0.100").
 -define(PORT_HTTPS, 8080).
 -define(PORT_HTTP, 8081).
 
