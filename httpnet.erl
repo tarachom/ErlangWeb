@@ -34,12 +34,12 @@
     print/1
 ]).
 
--define(SERVER, "mysyte.com.ua").
+-define(SERVER, "example.com").
 -define(BIND, "192.168.0.100").
 -define(PORT_HTTPS, 8080).
 -define(PORT_HTTP, 8081).
 
-%% Запуск https сервера
+%% Запуск https та http серверів
 start() ->
     inets:start(),
 
