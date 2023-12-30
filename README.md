@@ -3,7 +3,7 @@
 
 Встановити Erlang на Ubuntu:
 
-    apt-get install erlang
+    sudo apt-get install erlang
 
 Скомпілювати скрипти:
 
